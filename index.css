@@ -186,7 +186,7 @@ main .des {
   text-transform: uppercase;
   font-family: var(--primary-font);
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 4px;
   line-height: 46px;
 }

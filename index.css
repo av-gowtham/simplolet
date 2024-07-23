@@ -324,6 +324,10 @@ main .des {
     letter-spacing: 3px;
   }
 
+  .header .title {
+    padding: 8vw;
+  }
+
   main {
     padding: 60px 20px;
   }

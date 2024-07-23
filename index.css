@@ -295,12 +295,16 @@ main .des {
 }
 
 @media (max-width: 426px) {
+  .navbar div {
+    left: 30px;
+  }
+
   .navbar p {
     left: 30px;
   }
 
   .navbar img {
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   .header .title {

@@ -92,7 +92,7 @@ body {
   padding: 6vw;
 }
 
-.header h1 {
+h1 {
   font-family: var(--primary-font);
   text-transform: uppercase;
   margin-bottom: 60px;
@@ -139,7 +139,7 @@ main {
   gap: 42px;
 }
 
-main .images {
+.images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -171,7 +171,7 @@ main .images {
   grid-row: 1 / span 2;
 }
 
-main .des {
+.des {
   height: 230px;
   width: 420px;
   padding: 28px 32px;
@@ -219,7 +219,7 @@ main .des {
     font-size: 18px;
   }
 
-  .header h1 {
+  h1 {
     font-size: 38px;
   }
 
@@ -264,33 +264,33 @@ main .des {
     padding: 10vw;
   }
 
-  .header h1 {
+  h1 {
     font-size: 36px;
   }
 }
 
 @media (max-width: 550px) {
-  main .images,
-  main .des {
+  .images,
+  .des {
     transform: scale(0.9);
   }
 }
 
 @media (max-width: 495px) {
-  main .images,
-  main .des {
+  .images,
+  .des {
     transform: scale(0.75);
   }
 }
 
 /* Mobile phones */
 @media (max-width: 475px) {
-  main .images,
-  main .des {
+  .images,
+  .des {
     transform: scale(0.8);
   }
 
-  .header h1 {
+  h1 {
     letter-spacing: 2px;
   }
 
@@ -328,7 +328,7 @@ main .des {
 }
 
 @media (max-width: 376px) {
-  .header h1 {
+  h1 {
     font-size: 32px;
     letter-spacing: 3px;
   }
@@ -361,7 +361,7 @@ main .des {
     padding: 50px 10px;
   }
 
-  main .images {
+  .images {
     height: 320px;
     gap: 10px 15px;
   }

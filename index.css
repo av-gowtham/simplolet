@@ -18,6 +18,11 @@
   --primary-color: #ee7975;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
